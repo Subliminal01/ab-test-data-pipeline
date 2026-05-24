@@ -1,0 +1,17 @@
+# Ignore Virtual Environment
+venv/
+env/
+
+# Ignore Data & Database Files
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Ignore dbt compiled code and logs
+experiment_engine/target/
+experiment_engine/logs/
+experiment_engine/dbt_packages/
+
+# Ignore Python Cache
+__pycache__/
+*.pyc

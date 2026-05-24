@@ -1,0 +1,13 @@
+sources:
+      - name: data_lake
+        description: "Raw telemetry data stored as Parquet files"
+        tables:
+          - name: raw_users
+            meta:
+              external_location: '../users.parquet'
+          - name: raw_assignments
+            meta:
+              external_location: '../assignments.parquet'
+          - name: raw_events
+            meta:
+              external_location: '../events.parquet'
